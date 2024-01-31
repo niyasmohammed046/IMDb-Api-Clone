@@ -1,4 +1,6 @@
 from django.contrib import admin
-from . models import Movie
+from . models import StreamingPlatform , WatchList ,Review
 
-admin.site.register(Movie)
+admin.site.register(StreamingPlatform)
+admin.site.register(WatchList)
+admin.site.register(Review)
